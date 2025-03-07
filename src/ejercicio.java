@@ -7,6 +7,5 @@ public class ejercicio {
         System.out.print("Ingrese su edad: ");
         byte edad = input.nextByte();
         System.out.println("Hola, " + nombre + ". Tienes " + edad + " años.");  
-        input.close(); 
     }
 }

@@ -9,6 +9,6 @@ public class ejerciciopracticooperadores {
         System.out.println("ingrese el tercer numero");
         int num3 = input.nextInt();
         System.out.println( " ¿el primer numero es mayor que el segundo y menor que el tercero? "+ (num1>num2 && num1<num3  ));
-        input.close();
+        
     }
 }
