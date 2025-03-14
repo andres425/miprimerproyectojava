@@ -10,5 +10,6 @@ public class miniproyecto {
       int numero3 = input.nextInt();
       float medio = (numero1+numero2+numero3)/3;
         System.out.println("la media de los numeros es: "+ medio);
+        input.close();
    } 
 }

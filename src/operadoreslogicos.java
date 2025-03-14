@@ -12,5 +12,6 @@ public class operadoreslogicos {
         System.out.println("a > b && b < c: " + (a > b && b < c)); // true
         System.out.println("a < b || b > c: " + (a < b || b > c)); // false
         System.out.println("!(a > b): " + !(a > b)); // false
+        input.close();
     }
 }

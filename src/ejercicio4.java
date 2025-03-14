@@ -13,5 +13,6 @@ public class ejercicio4{
             i++;
         }
         System.out.println("El factorial de " + numero + " es " + factorial);
+        input.close();
     }
 }
