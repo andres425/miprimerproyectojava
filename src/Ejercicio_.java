@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ejercicio {
+public class Ejercicio_ {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Ingrese su nombre: ");

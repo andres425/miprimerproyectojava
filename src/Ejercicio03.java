@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
-public class ejercicio3 {
+public class Ejercicio03 {
     public static void main(String[] args) {
         System.out.println("1 es sumar , 2 es restar , 3 es multiplicar , 4 es dividir");
-Scanner imput = new Scanner(System.in);
+Scanner input = new Scanner(System.in);
 System.out.print("ingrese la operacion que desea realizar: ");
-int operacion = imput.nextInt();
+int operacion = input.nextInt();
 System.out.print("ingrese el primer numero: ");
-int num1 = imput.nextInt();
+int num1 = input.nextInt();
 System.out.print("ingrese el segundo numero: ");
-int num2 = imput.nextInt();
+int num2 = input.nextInt();
 switch (operacion) {
         case 1 : 
         System.out.println("la suma es: " + (num1 + num2));
@@ -28,7 +28,9 @@ switch (operacion) {
     System.out.println("la operacion no es valida");
         throw new AssertionError();
         }
+       
         
-    }  
+    } 
+
 }
     
