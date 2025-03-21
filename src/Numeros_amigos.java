@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class numerosamigos {
+public class Numeros_amigos {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("ingrese el numero de inicio");

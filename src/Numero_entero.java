@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class numeroentero {
+public class Numero_entero {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -26,5 +26,6 @@ public class numeroentero {
             }
             System.out.println();
         }
+        input.close();
     }   
 }
